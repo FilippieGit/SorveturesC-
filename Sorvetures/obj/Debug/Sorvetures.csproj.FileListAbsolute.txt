@@ -1,0 +1,10 @@
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\bin\Debug\Sorvetures.exe.config
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\bin\Debug\Sorvetures.exe
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\bin\Debug\Sorvetures.pdb
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj\Debug\Sorvetures.csproj.AssemblyReference.cache
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj\Debug\Sorvetures.frmSplash.resources
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj\Debug\Sorvetures.Properties.Resources.resources
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj\Debug\Sorvetures.csproj.GenerateResource.cache
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj\Debug\Sorvetures.csproj.CoreCompileInputs.cache
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj\Debug\Sorvetures.exe
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj\Debug\Sorvetures.pdb
