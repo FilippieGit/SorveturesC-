@@ -8,3 +8,4 @@ C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj
 C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj\Debug\Sorvetures.csproj.CoreCompileInputs.cache
 C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj\Debug\Sorvetures.exe
 C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj\Debug\Sorvetures.pdb
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\EmpresaABC\Sorvetures\obj\Debug\Sorvetures.frmLogin.resources
