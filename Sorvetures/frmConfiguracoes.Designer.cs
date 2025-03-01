@@ -1,6 +1,6 @@
 ﻿namespace Sorvetures
 {
-    partial class frmSobreNos
+    partial class frmConfiguracoes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSobreNos));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmConfiguracoes));
             this.SuspendLayout();
             // 
-            // frmSobreNos
+            // frmConfiguracoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -39,8 +39,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "frmSobreNos";
-            this.Text = "Sorvetures - Sobre nós";
+            this.Name = "frmConfiguracoes";
+            this.Text = "Sorvetures - Configurações";
             this.ResumeLayout(false);
 
         }
