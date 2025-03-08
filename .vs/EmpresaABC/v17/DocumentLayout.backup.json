@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\sorveturesc-\\sorvetures\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\sorveturesc-\\sorvetures\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\sorveturesc-\\sorvetures\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\sorveturesc-\\sorvetures\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmpesquisarfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\sorveturesc-\\sorvetures\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\sorveturesc-\\sorvetures\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\sorveturesc-\\sorvetures\\frmconfiguracoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmconfiguracoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\sorveturesc-\\sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\documents\\visual studio 2022\\sorveturesc-\\sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -18,11 +50,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmLogin.cs",
+              "RelativeToolTip": "Sorvetures\\frmLogin.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwCYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T01:12:05.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPesquisarFuncionarios.cs",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmPesquisarFuncionarios.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\frmPesquisarFuncionarios.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmPesquisarFuncionarios.cs",
+              "RelativeToolTip": "Sorvetures\\frmPesquisarFuncionarios.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAWwCsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T01:10:52.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmMenuPrincipal.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\frmMenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmMenuPrincipal.cs",
+              "RelativeToolTip": "Sorvetures\\frmMenuPrincipal.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T01:08:13.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmFuncionarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\frmFuncionarios.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs [Design]",
+              "RelativeToolTip": "Sorvetures\\frmFuncionarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:52:52.932Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmLogin.cs [Design]",
+              "RelativeToolTip": "Sorvetures\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:52:51.981Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmMenuPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmMenuPrincipal.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\frmMenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmMenuPrincipal.cs [Design]",
+              "RelativeToolTip": "Sorvetures\\frmMenuPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:52:48.503Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPesquisarFuncionarios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmPesquisarFuncionarios.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\frmPesquisarFuncionarios.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmPesquisarFuncionarios.cs [Design]",
+              "RelativeToolTip": "Sorvetures\\frmPesquisarFuncionarios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:32:36.223Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmConfiguracoes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmConfiguracoes.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\frmConfiguracoes.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmConfiguracoes.cs [Design]",
+              "RelativeToolTip": "Sorvetures\\frmConfiguracoes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T00:52:53.658Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmFuncionarios.cs",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\frmFuncionarios.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs",
+              "RelativeToolTip": "Sorvetures\\frmFuncionarios.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAA7wHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T01:04:47.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\Program.cs",
               "RelativeDocumentMoniker": "Sorvetures\\Program.cs",
@@ -30,19 +174,8 @@
               "RelativeToolTip": "Sorvetures\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T00:33:45.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmFuncionarios.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs",
-              "RelativeDocumentMoniker": "Sorvetures\\frmFuncionarios.cs",
-              "ToolTip": "C:\\Users\\Laboratorio-Info\\Documents\\Visual Studio 2022\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs [Design]",
-              "RelativeToolTip": "Sorvetures\\frmFuncionarios.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T00:13:26.609Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-01T00:33:45.933Z",
+              "EditorCaption": ""
             }
           ]
         }

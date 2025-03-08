@@ -76,6 +76,12 @@
     <Compile Include="frmMenuPrincipal.Designer.cs">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPesquisarFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPesquisarFuncionarios.Designer.cs">
+      <DependentUpon>frmPesquisarFuncionarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSobreNos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenuPrincipal.resx">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPesquisarFuncionarios.resx">
+      <DependentUpon>frmPesquisarFuncionarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSobreNos.resx">
       <DependentUpon>frmSobreNos.cs</DependentUpon>

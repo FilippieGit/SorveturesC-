@@ -25,3 +25,4 @@ C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\SorveturesC-\Sorvetures\o
 C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.csproj.CoreCompileInputs.cache
 C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.exe
 C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.pdb
+C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.frmPesquisarFuncionarios.resources
