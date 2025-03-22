@@ -31,5 +31,26 @@ namespace Sorvetures
         {
 
         }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (pgbSplash.Value < 100)
+            {
+                pgbSplash.Value = pgbSplash.Value + 2;
+                lblNumSplash.Text = pgbSplash.Value.ToString() + "%";
+            }
+            else
+            {
+                tmrSplash.Enabled = false;
+                frmLogin abrir = new frmLogin();
+                abrir.Show();
+                this.Hide();
+            }
+        }
     }
 }

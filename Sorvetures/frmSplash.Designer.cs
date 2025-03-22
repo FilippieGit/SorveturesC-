@@ -28,63 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplash));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.ptbLogoSplash = new System.Windows.Forms.PictureBox();
+            this.lblNumSplash = new System.Windows.Forms.Label();
+            this.pgbSplash = new System.Windows.Forms.ProgressBar();
+            this.tmrSplash = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.ptbLogoSplash)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // ptbLogoSplash
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(263, 88);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(254, 241);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.ptbLogoSplash.Image = ((System.Drawing.Image)(resources.GetObject("ptbLogoSplash.Image")));
+            this.ptbLogoSplash.Location = new System.Drawing.Point(263, 88);
+            this.ptbLogoSplash.Name = "ptbLogoSplash";
+            this.ptbLogoSplash.Size = new System.Drawing.Size(254, 241);
+            this.ptbLogoSplash.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptbLogoSplash.TabIndex = 0;
+            this.ptbLogoSplash.TabStop = false;
             // 
-            // label1
+            // lblNumSplash
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(373, 370);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(16, 18);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "0";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblNumSplash.AutoSize = true;
+            this.lblNumSplash.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumSplash.Location = new System.Drawing.Point(377, 369);
+            this.lblNumSplash.Name = "lblNumSplash";
+            this.lblNumSplash.Size = new System.Drawing.Size(16, 18);
+            this.lblNumSplash.TabIndex = 1;
+            this.lblNumSplash.Text = "0";
+            this.lblNumSplash.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNumSplash.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // pgbSplash
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(389, 370);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(21, 18);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "%";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.pgbSplash.Location = new System.Drawing.Point(263, 399);
+            this.pgbSplash.Name = "pgbSplash";
+            this.pgbSplash.Size = new System.Drawing.Size(254, 23);
+            this.pgbSplash.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pgbSplash.TabIndex = 3;
+            this.pgbSplash.Click += new System.EventHandler(this.progressBar1_Click);
             // 
-            // progressBar1
+            // tmrSplash
             // 
-            this.progressBar1.Location = new System.Drawing.Point(263, 399);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(254, 23);
-            this.progressBar1.TabIndex = 3;
+            this.tmrSplash.Enabled = true;
+            this.tmrSplash.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // frmSplash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pgbSplash);
+            this.Controls.Add(this.lblNumSplash);
+            this.Controls.Add(this.ptbLogoSplash);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -93,7 +89,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Carregamento";
             this.Load += new System.EventHandler(this.frmSplash_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbLogoSplash)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,9 +97,9 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.PictureBox ptbLogoSplash;
+        private System.Windows.Forms.Label lblNumSplash;
+        private System.Windows.Forms.ProgressBar pgbSplash;
+        private System.Windows.Forms.Timer tmrSplash;
     }
 }

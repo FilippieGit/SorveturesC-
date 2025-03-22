@@ -63,7 +63,7 @@
             this.button2.Location = new System.Drawing.Point(405, 43);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(160, 200);
-            this.button2.TabIndex = 1;
+            this.button2.TabIndex = 3;
             this.button2.Text = "Configurações";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -77,7 +77,7 @@
             this.button3.Location = new System.Drawing.Point(222, 43);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(160, 200);
-            this.button3.TabIndex = 2;
+            this.button3.TabIndex = 1;
             this.button3.Text = "Usuários";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -91,7 +91,7 @@
             this.button4.Location = new System.Drawing.Point(588, 43);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(160, 200);
-            this.button4.TabIndex = 3;
+            this.button4.TabIndex = 4;
             this.button4.Text = "Relatórios";
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -105,7 +105,7 @@
             this.button5.Location = new System.Drawing.Point(588, 268);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(160, 200);
-            this.button5.TabIndex = 7;
+            this.button5.TabIndex = 8;
             this.button5.Text = " Vendas";
             this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -133,7 +133,7 @@
             this.button7.Location = new System.Drawing.Point(405, 268);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(160, 200);
-            this.button7.TabIndex = 5;
+            this.button7.TabIndex = 7;
             this.button7.Text = "Fornecedores";
             this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -147,7 +147,7 @@
             this.button8.Location = new System.Drawing.Point(37, 268);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(160, 200);
-            this.button8.TabIndex = 4;
+            this.button8.TabIndex = 5;
             this.button8.Text = "Clientes";
             this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -161,7 +161,7 @@
             this.button9.Location = new System.Drawing.Point(588, 489);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(160, 51);
-            this.button9.TabIndex = 8;
+            this.button9.TabIndex = 9;
             this.button9.Text = "Voltar";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
