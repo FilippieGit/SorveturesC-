@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\sorveturesc-\\sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|C:\\SorveturesC-\\sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Sorvetures\\frmFuncionarios.cs",
               "ToolTip": "C:\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs",
               "RelativeToolTip": "Sorvetures\\frmFuncionarios.cs",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAqwLMAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAMgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T00:04:30.214Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "C:\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs [Design]",
               "RelativeToolTip": "Sorvetures\\frmFuncionarios.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:04:15.989Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-05T00:04:15.989Z"
             }
           ]
         }

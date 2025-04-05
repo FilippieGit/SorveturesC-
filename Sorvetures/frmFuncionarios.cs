@@ -197,6 +197,8 @@ namespace Sorvetures
             else
             {
                 MessageBox.Show("Cadastro com sucesso!!!");
+                desabilitarcampos();
+
             }
         }
     }
