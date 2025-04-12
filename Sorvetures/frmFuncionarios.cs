@@ -7,12 +7,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using MosaicoSolutions.ViaCep;
 
 namespace Sorvetures
 {
     public partial class frmFuncionarios : Form
     {
-        public frmFuncionarios()
+
+        //Criando variáveis para controle do menu
+        const int MF_BYCOMMAND = 0X400;
+        [DllImport("user32")]
+        static extern int RemoveMenu(IntPtr hMenu, int nPosition, int wFlags);
+        [DllImport("user32")]
+        static extern IntPtr GetSystemMenu(IntPtr hWnd, bool bRevert);
+        [DllImport("user32")]
+        static extern int GetMenuItemCount(IntPtr hWnd);
+
+
+        //criando um método busca cep
+
+        public void buscaCEP(string cep)
+        {
+            var viaCEPService = ViaCepService.Default();
+            var endereco = viaCEPService.ObterEndereco(cep);
+            
+            txtLogradouro.Text = endereco.Logradouro;
+            cbbUF.Text = endereco.UF;
+            txtCidade.Text = endereco.Localidade;
+            mskCEP.Text = endereco.Cep;
+            txtComplemento.Text = endereco.Complemento;
+            cbbEstado.Text = endereco.UF;
+            
+        }
+
+        public frmFuncionarios() 
         {
             InitializeComponent();
 
@@ -200,6 +229,53 @@ namespace Sorvetures
                 desabilitarcampos();
 
             }
+        }
+
+        private void frmFuncionarios_Load(object sender, EventArgs e)
+        {
+            IntPtr hMenu = GetSystemMenu(this.Handle, false);
+            int MenuCount = GetMenuItemCount(hMenu) - 1;
+            RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
+        }
+
+        private void mskCEP_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void mskCEP_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                //executando o método busca cep
+                buscaCEP(mskCEP.Text);
+                txtNumero.Focus();
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtComplemento_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_2(object sender, EventArgs e)
+        {
+
         }
     }
 }

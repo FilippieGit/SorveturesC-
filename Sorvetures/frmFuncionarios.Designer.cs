@@ -68,6 +68,8 @@
             this.txtLogradouro = new System.Windows.Forms.TextBox();
             this.lblLogradouro = new System.Windows.Forms.Label();
             this.lblCEP = new System.Windows.Forms.Label();
+            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.lblBairro = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -255,7 +257,7 @@
             this.btnAlterar.Location = new System.Drawing.Point(327, 0);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(108, 40);
-            this.btnAlterar.TabIndex = 23;
+            this.btnAlterar.TabIndex = 20;
             this.btnAlterar.Text = "A&lterar";
             this.btnAlterar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAlterar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -267,7 +269,7 @@
             this.btnVoltar.Location = new System.Drawing.Point(651, 0);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(108, 40);
-            this.btnVoltar.TabIndex = 22;
+            this.btnVoltar.TabIndex = 23;
             this.btnVoltar.Text = "&Voltar";
             this.btnVoltar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnVoltar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -280,7 +282,7 @@
             this.btnLimpar.Location = new System.Drawing.Point(543, 0);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(108, 40);
-            this.btnLimpar.TabIndex = 21;
+            this.btnLimpar.TabIndex = 22;
             this.btnLimpar.Text = "L&impar";
             this.btnLimpar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLimpar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -293,7 +295,7 @@
             this.btnPesquisar.Location = new System.Drawing.Point(435, 0);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(108, 40);
-            this.btnPesquisar.TabIndex = 20;
+            this.btnPesquisar.TabIndex = 21;
             this.btnPesquisar.Text = "&Pesquisar";
             this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnPesquisar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -340,6 +342,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.txtBairro);
+            this.groupBox2.Controls.Add(this.lblBairro);
             this.groupBox2.Controls.Add(this.txtComplemento);
             this.groupBox2.Controls.Add(this.lblComplemento);
             this.groupBox2.Controls.Add(this.txtNumero);
@@ -370,6 +374,7 @@
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.Size = new System.Drawing.Size(268, 29);
             this.txtComplemento.TabIndex = 15;
+            this.txtComplemento.TextChanged += new System.EventHandler(this.txtComplemento_TextChanged);
             // 
             // lblComplemento
             // 
@@ -484,6 +489,8 @@
             this.mskCEP.Name = "mskCEP";
             this.mskCEP.Size = new System.Drawing.Size(72, 29);
             this.mskCEP.TabIndex = 9;
+            this.mskCEP.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mskCEP_MaskInputRejected);
+            this.mskCEP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mskCEP_KeyDown);
             // 
             // lblEstado
             // 
@@ -539,6 +546,25 @@
             this.lblCEP.Text = "CEP";
             this.lblCEP.Click += new System.EventHandler(this.label14_Click);
             // 
+            // txtBairro
+            // 
+            this.txtBairro.Location = new System.Drawing.Point(467, 147);
+            this.txtBairro.MaxLength = 100;
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(268, 29);
+            this.txtBairro.TabIndex = 23;
+            this.txtBairro.TextChanged += new System.EventHandler(this.textBox1_TextChanged_2);
+            // 
+            // lblBairro
+            // 
+            this.lblBairro.AutoSize = true;
+            this.lblBairro.Location = new System.Drawing.Point(406, 155);
+            this.lblBairro.Name = "lblBairro";
+            this.lblBairro.Size = new System.Drawing.Size(55, 21);
+            this.lblBairro.TabIndex = 24;
+            this.lblBairro.Text = "Bairro";
+            this.lblBairro.Click += new System.EventHandler(this.label1_Click_1);
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -553,6 +579,7 @@
             this.Name = "frmFuncionarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sorvetures - Funcionários";
+            this.Load += new System.EventHandler(this.frmFuncionarios_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -603,5 +630,7 @@
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.Button btnAlterar;
+        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.Label lblBairro;
     }
 }

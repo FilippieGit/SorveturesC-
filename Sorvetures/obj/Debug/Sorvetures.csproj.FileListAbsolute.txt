@@ -29,6 +29,9 @@ C:\Users\Laboratorio-Info\Documents\Visual Studio 2022\SorveturesC-\Sorvetures\o
 C:\SorveturesC-\Sorvetures\bin\Debug\Sorvetures.exe.config
 C:\SorveturesC-\Sorvetures\bin\Debug\Sorvetures.exe
 C:\SorveturesC-\Sorvetures\bin\Debug\Sorvetures.pdb
+C:\SorveturesC-\Sorvetures\bin\Debug\MosaicoSolutions.ViaCep.dll
+C:\SorveturesC-\Sorvetures\bin\Debug\Newtonsoft.Json.dll
+C:\SorveturesC-\Sorvetures\bin\Debug\Newtonsoft.Json.xml
 C:\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.csproj.AssemblyReference.cache
 C:\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.frmConfiguracoes.resources
 C:\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.frmFuncionarios.resources
@@ -41,5 +44,6 @@ C:\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.frmUsuarios.resources
 C:\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.Properties.Resources.resources
 C:\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.csproj.GenerateResource.cache
 C:\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.csproj.CoreCompileInputs.cache
+C:\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.csproj.Up2Date
 C:\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.exe
 C:\SorveturesC-\Sorvetures\obj\Debug\Sorvetures.pdb

@@ -41,6 +41,7 @@
             this.Name = "frmUsuarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sorvetures - Usuários";
+            this.Load += new System.EventHandler(this.frmUsuarios_Load);
             this.ResumeLayout(false);
 
         }

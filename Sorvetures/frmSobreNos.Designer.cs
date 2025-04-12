@@ -42,6 +42,7 @@
             this.Name = "frmSobreNos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sorvetures - Sobre nós";
+            this.Load += new System.EventHandler(this.frmSobreNos_Load);
             this.ResumeLayout(false);
 
         }

@@ -42,6 +42,7 @@
             this.Name = "frmConfiguracoes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sorvetures - Configurações";
+            this.Load += new System.EventHandler(this.frmConfiguracoes_Load);
             this.ResumeLayout(false);
 
         }
