@@ -45,15 +45,15 @@ namespace Sorvetures
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            string nome = ltbPesquisar.SelectedItem.ToString();
+            frmFuncionarios abrir = new frmFuncionarios(nome);
+            abrir.Show();
+            this.Hide();
         }
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
-            frmFuncionarios abrir = new frmFuncionarios();
-            abrir.Show();
-            this.Hide();
-            
+            ltbPesquisar.Items.Add(txtDescricao.Text);           
         }
     }
 }

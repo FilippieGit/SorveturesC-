@@ -49,6 +49,15 @@ namespace Sorvetures
 
             desabilitarcampos();
         }
+        public frmFuncionarios(string nome)
+        {
+            InitializeComponent();
+
+            //executando o método desabilitar campos
+
+            desabilitarcampos();
+            txtNome.Text = nome;
+        }
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
