@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using MySql.Data.MySqlClient;
 
 namespace Sorvetures
 {
@@ -103,6 +104,15 @@ namespace Sorvetures
             IntPtr hMenu = GetSystemMenu(this.Handle, false);
             int MenuCount = GetMenuItemCount(hMenu) - 1;
             RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
+        }
+
+        private void btnConectar_Click(object sender, EventArgs e)
+        {
+            Conexao.obterConexao();
+
+            MessageBox.Show("Banco de dados conectado");
+
+            Conexao.fecharConexao();
         }
     }
 }

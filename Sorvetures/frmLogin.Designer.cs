@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnConectar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -114,11 +115,24 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // btnConectar
+            // 
+            this.btnConectar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnConectar.Location = new System.Drawing.Point(417, 65);
+            this.btnConectar.Name = "btnConectar";
+            this.btnConectar.Size = new System.Drawing.Size(205, 45);
+            this.btnConectar.TabIndex = 6;
+            this.btnConectar.Text = "Conectar";
+            this.btnConectar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.btnConectar.UseVisualStyleBackColor = true;
+            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(780, 557);
+            this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSenha);
@@ -148,5 +162,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnConectar;
     }
 }

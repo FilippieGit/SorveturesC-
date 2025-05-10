@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Laboratorio-Info\\source\\repos\\SorveturesC-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\source\\repos\\sorveturesc-\\sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\source\\repos\\sorveturesc-\\sorvetures\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\source\\repos\\sorveturesc-\\sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\source\\repos\\sorveturesc-\\sorvetures\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|c:\\users\\laboratorio-info\\source\\repos\\sorveturesc-\\sorvetures\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAFFE3D8-FDF6-4763-BEAA-3AC722560A6F}|Sorvetures\\Sorvetures.csproj|solutionrelative:sorvetures\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmFuncionarios.cs",
-              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\source\\repos\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs",
-              "RelativeDocumentMoniker": "Sorvetures\\frmFuncionarios.cs",
-              "ToolTip": "C:\\Users\\Laboratorio-Info\\source\\repos\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs",
-              "RelativeToolTip": "Sorvetures\\frmFuncionarios.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAqwJkAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\source\\repos\\SorveturesC-\\Sorvetures\\Conexao.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\Conexao.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\source\\repos\\SorveturesC-\\Sorvetures\\Conexao.cs",
+              "RelativeToolTip": "Sorvetures\\Conexao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T00:07:22.972Z",
+              "WhenOpened": "2025-05-10T00:51:42.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmFuncionarios.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\source\\repos\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs",
-              "RelativeDocumentMoniker": "Sorvetures\\frmFuncionarios.cs",
-              "ToolTip": "C:\\Users\\Laboratorio-Info\\source\\repos\\SorveturesC-\\Sorvetures\\frmFuncionarios.cs [Design]",
-              "RelativeToolTip": "Sorvetures\\frmFuncionarios.cs [Design]",
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\source\\repos\\SorveturesC-\\Sorvetures\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\source\\repos\\SorveturesC-\\Sorvetures\\frmLogin.cs",
+              "RelativeToolTip": "Sorvetures\\frmLogin.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T00:07:22.005Z",
+              "WhenOpened": "2025-05-10T00:22:54.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Laboratorio-Info\\source\\repos\\SorveturesC-\\Sorvetures\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Sorvetures\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\Laboratorio-Info\\source\\repos\\SorveturesC-\\Sorvetures\\frmLogin.cs [Design]",
+              "RelativeToolTip": "Sorvetures\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T00:18:54.391Z",
               "EditorCaption": " [Design]"
             }
           ]
