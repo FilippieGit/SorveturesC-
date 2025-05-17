@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using MySql.Data.MySqlClient;
+using System.Runtime.CompilerServices;
 
 namespace Sorvetures
 {
@@ -50,7 +51,7 @@ namespace Sorvetures
             senha = txtSenha.Text.Trim();
 
 
-           if(usuario.Equals("etecia") && senha.Equals("etecia"))
+           if(validarUsuarios(usuario, senha))
             {
                 frmMenuPrincipal abrir = new frmMenuPrincipal();
                 abrir.Show();
@@ -106,13 +107,33 @@ namespace Sorvetures
             RemoveMenu(hMenu, MenuCount, MF_BYCOMMAND);
         }
 
-        private void btnConectar_Click(object sender, EventArgs e)
-        {
-            Conexao.obterConexao();
 
-            MessageBox.Show("Banco de dados conectado");
+        //Criando o método de validar usuário
+
+        public bool validarUsuarios(string usuario, string senha)
+        {
+
+            MySqlCommand comm = new MySqlCommand();
+            comm.CommandText = "select * from tbusuarios where nome = @nome and senha = @senha;";
+            comm.CommandType= CommandType.Text;
+
+            comm.Parameters.Clear();
+
+            comm.Parameters.Add("@nome", MySqlDbType.VarChar, 50).Value = usuario;
+            comm.Parameters.Add("@senha", MySqlDbType.VarChar, 12).Value = senha;
+
+            comm.Connection = Conexao.obterConexao();
+
+            MySqlDataReader DR;
+
+            DR = comm.ExecuteReader();
+            DR.Read();
+            bool resp = DR.HasRows;
+
 
             Conexao.fecharConexao();
+
+            return resp;
         }
     }
 }
